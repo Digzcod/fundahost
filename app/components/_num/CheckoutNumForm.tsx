@@ -156,9 +156,9 @@ const CheckoutNumForm: React.FC<PropsHandleSection> = ({
                 value={formik.values.employeeSize}
               >
                 <option value="">Select</option>
-                <option value="1-2">1-2</option>
-                <option value="2-3">2-3</option>
-                <option value="4-5">4-5</option>
+                <option value="1-10">1-10</option>
+                <option value="11-50">11-50</option>
+                <option value="51-200">51-200</option>
               </select>
               {formik.touched.employeeSize && formik.errors.employeeSize ? (
                 <p className="text-red-600 text-sm">

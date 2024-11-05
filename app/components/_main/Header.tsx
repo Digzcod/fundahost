@@ -14,7 +14,7 @@ const Header = () => {
   const [notifications] = useState(3);
 
   return (
-    <article className="w-full px-[2rem] py-4 border border-b-slate-100 flex items-center ">
+    <article className="w-full px-[2rem] py-4 border border-b-slate-100 flex items-center max-w-[2000px]">
      
       <div className="flex items-center gap-2">
         <BsFillHousesFill className="text-violet-800 text-4xl cursor-pointer hover:text-indigo-600" />

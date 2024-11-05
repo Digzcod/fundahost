@@ -8,7 +8,7 @@ const GetContainer = () => {
   const [activeSection, setActiveSection] = useState("reserve");
 
   return (
-    <section className="w-full p-[.7rem] h-auto rounded-2xl bg-violet-500 bg-opacity-10">
+    <section className="w-full p-[.7rem] h-auto rounded-2xl bg-violet-500 bg-opacity-10 max-w-[1900px]">
       <GetNavNumber
         activeSection={activeSection}
         handleActiveSection={setActiveSection}

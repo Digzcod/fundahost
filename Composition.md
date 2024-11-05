@@ -18,16 +18,17 @@
  -VerticalNavIcons
   -icons
   -icons2 
- - HorizonNavIcons
+ -HorizonNavIcons
   -icons arrow
   -Text
 
 # Secondary Container
- -Navigation Bar 
+-Navigation Bar 
   -ReserverNum
   -Checkout
   -Account Verified
- -CardNumber
+
+-CardNumber
   -Section 1
    -Icon Tel
    -Text
